@@ -79,13 +79,14 @@ docker ps
   
  # **<--- NGINX Proxy Manager, MariaDB y Vaultwarden --->**  
   
-## Descargar Proxy-manager
+## Descargar el repositorio en el que viene el archivo para docker
 ```` 
+sudo mkdir /opt/vw
 git clone https://github.com/inFERk/vaultwarden.git
 cd vaultwarden
 ```` 
 
-## Instalar Proxy-maneger
+## Instalar todo
 ```` 
 docker-compose up -d
 ```` 
